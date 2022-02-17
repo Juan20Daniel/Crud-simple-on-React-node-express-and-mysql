@@ -1,0 +1,67 @@
+.card {
+    background-color: white;
+    border-radius: 9px;
+    box-shadow: 0 3px 8px rgba(179, 179, 179, 0.726);
+    user-select: none;
+}
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 9px 9px 0 0;
+    min-height: 62px;
+}
+.imgOptions {
+    width: 5px;
+    height: 20px;
+    cursor: pointer;
+}
+.header--options {
+    position: relative;
+}
+.options {
+    position: absolute;
+    right: 20px;
+    width: 100px;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 3px 5px rgb(66, 66, 66);
+    border-radius: 5px;
+}
+.options button {
+    background-color: #ffffff00;
+    border: none;
+    padding: 5px 0;
+    cursor: pointer;
+    text-align: start;
+    padding-left: 15px;
+}
+.header--name {
+    color: #ffffff;
+}
+.content {
+    padding: 20px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    height: 169px;
+    justify-content: space-between;
+}
+.content__phone--title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+}
+.content__phone--value {
+    font-size: 14px;
+    padding-top: 2px;
+}
+.content__email--title {
+    font-size: 18px;
+    font-weight: bold;
+}
+.content__email--value {
+    font-size: 13px;
+    word-wrap: break-word;
+}
